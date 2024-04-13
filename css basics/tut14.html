@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS selectors</title>
+    <style>
+      /* Ctrl+/ is used to comment ou while using css */
+      /* This is an element selector */
+      p {
+        border: 2px solid blueviolet;
+        border-radius: 5%;
+      }
+      /* This is an id selector */
+      #firstpara {
+        color: green;
+      }
+      /* This is aclass selector */
+      .secondpara {
+        color: aqua;
+        background-color: blanchedalmond;
+      }
+      /* This is a group selector */
+      footer,
+      span {
+        background-color: cadetblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>CSS selectors</h3>
+    <p id="firstpara">This is a paragraph</p>
+    <p class="secondpara">This is another paragraph</p>
+    <div>
+      <p>This is yet a third another paragraph</p>
+      <span>This is a span</span>
+    </div>
+    <footer>This is a footer</footer>
+  </body>
+</html>

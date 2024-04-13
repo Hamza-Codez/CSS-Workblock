@@ -1,0 +1,33 @@
+h1{
+  font-size:smaller;
+  text-align: center;
+  color: blue;
+}
+/* selectors */
+/* Element Selectors */
+/* By element */
+/* e.g using p,h1,section,div,article etc to target that element*/
+/* ID Selectors */
+/* In this case we assign an id to the targeted element let say 
+if we have a paragraph section 
+<p id="p1">...........
+......................
+......................</p>
+then we will call it in css as
+#p1{ properties
+}*/
+#p2{
+  background-color: burlywood;
+}
+/* WE CAN NOT ASSIGN SAME ID TO ALL OR MULTIPLE ELEMENT */
+/* class Selectors */
+/* We can assign the same class to more than one elements */
+.pra{
+  background-color: bisque;
+}
+/* Group Selectors */
+p{
+  width: 500px;
+  text-align: center;
+  
+}

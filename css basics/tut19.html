@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>border Hight,width and radius</title>
+    <style>
+      #para1 {
+        height: 100px;
+        width: 455px;
+        background-color: rgb(141, 118, 224);
+        border: 2px solid rgb(53, 17, 110);
+        border-radius: 4px;
+      }
+      #para2 {
+        height: 100px;
+        width: 455px;
+        background-color: rgb(11, 109, 76);
+        border-top: 2px solid rgba(211, 189, 189, 0.315);
+        border-left: 2px solid rgba(211, 189, 189, 0.404);
+        border-bottom: 2px solid rgba(211, 189, 189, 0.651);
+        border-right: 2px solid rgba(211, 189, 189, 0.315);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      #para3 {
+        height: 400px;
+        width: 455px;
+        background-image: url("https://www.codewithharry.com/_next/image/?url=%2Fimg%2Flogo-blue.png&w=48&q=75");
+        border: 2px solid blueviolet;
+        background-repeat: no-repeat; /*Repeat x an repeat y will repeat the given image in x and y axis respectively*/
+        /*Yu may also change the position of the image with respect to the given box ,web page or area provided*/
+        background-position: center center;
+        /* other positions are also provided */
+        /* background-position: top top; */
+        /* background-position: top center; */
+        /* background-position: center; */
+        /* background-position: 208px; */
+      }
+    </style>
+  </head>
+  <body>
+    <h3>This is my heading</h3>
+    <p id="para1">This is my paragraph</p>
+    <h3>this is my second heading</h3>
+    <p id="para2">This is my second para</p>
+    <h3>this is my Third heading</h3>
+    <p id="para3">This is my Third para</p>
+  </body>
+</html>

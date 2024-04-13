@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border, margin and padding</title>
+    <style>
+      /* you may also use universal selector as :start */
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        background-color: rgb(229 200 255);
+        border: 3px solid rgb(112, 28, 180);
+        /* padding: 15px; */
+        /* margin: 25px; */
+        /* You can also change the padding/margin in indiviadual top,bottom,left right sides an together respectively */
+        /* padding-top: 0px;
+        padding-right: 46px;
+        padding-bottom: 11px;
+        padding-left: 43px; */
+        /* margin-top: 23px;
+        margin-right: 24px;
+        margin-bottom: 23px;
+        margin-left: 24px; */
+        padding: 0px 46px 11px 43px;
+        margin: 15px 24px 6px 24px;
+        border-radius: 24px;
+        width: 290px;
+        /* Hera we are going to use box sizing so that the margining and padding dont exffect the box and text inside as well */
+        /* box-sizing: border-box; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>This is my heading</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+        cupiditate porro, amet numquam perspiciatis sint iure consequatur
+        commodi illum quo debitis quae voluptates, enim, quia modi tenetur
+        maxime iusto praesentium?
+      </p>
+    </div>
+    <div class="container">
+      <h3>This is my heading</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+        cupiditate porro, amet numquam perspiciatis sint iure consequatur
+        commodi illum quo debitis quae voluptates, enim, quia modi tenetur
+        maxime iusto praesentium?
+      </p>
+    </div>
+    <div class="container">
+      <h3>This is my heading</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+        cupiditate porro, amet numquam perspiciatis sint iure consequatur
+        commodi illum quo debitis quae voluptates, enim, quia modi tenetur
+        maxime iusto praesentium?
+      </p>
+    </div>
+  </body>
+</html>
